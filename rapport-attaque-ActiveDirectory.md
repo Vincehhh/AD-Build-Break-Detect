@@ -1,10 +1,10 @@
 # Rapport Lab Active Directory 
 
 ## 1. Infrastructure Réseau
-Mise en place d'un réseau isolé pour le laboratoire (Sandboxing).
+Mise en place d'un réseau isolé pour le laboratoire.
 - **Type :** Réseau NAT (NAT Network)
 - **Nom :** AD-Lab-Net
-- **Plan d'adressage (CIDR) :** 192.168.50.0/24
+- **Plan d'adressage :** 192.168.50.0/24
 - **Justification :** Permet aux VMs de communiquer entre elles et d'accéder à internet pour les mises à jour, tout en restant isolées du réseau local physique de l'hôte.
 
 
@@ -25,7 +25,7 @@ Installation de la machine virtuelle qui hébergera le rôle Active Directory (A
 ### Système d'exploitation
 - **OS :** Windows Server 2022 Standard Evaluation
 - **Expérience utilisateur :** Desktop Experience (GUI)
-- **Méthode d'installation :** Installation personnalisée (Custom) sur disque vierge.
+- **Méthode d'installation :** Installation personnalisée sur disque vierge.
 
 
 
